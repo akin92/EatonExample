@@ -1,6 +1,6 @@
 package com.eaton.example.exceptions;
 
-import enums.ErrorCode;
+import com.eaton.example.enums.ErrorCode;
 
 public class EatonException extends  Exception{
     private ErrorCode errorCode;

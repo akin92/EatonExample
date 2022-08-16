@@ -1,4 +1,4 @@
-package enums;
+package com.eaton.example.enums;
 
 public enum ErrorCode {
     DATABASE(0, "A database error has occurred."),

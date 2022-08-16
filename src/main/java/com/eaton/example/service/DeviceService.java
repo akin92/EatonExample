@@ -1,7 +1,7 @@
 package com.eaton.example.service;
 
 import com.eaton.example.exceptions.EatonException;
-import enums.ErrorCode;
+import com.eaton.example.enums.ErrorCode;
 import com.eaton.example.dao.DeviceDao;
 import com.eaton.example.model.Device;
 import com.eaton.example.repository.DeviceRepository;

@@ -1,7 +1,7 @@
 package com.eaton.example.rest_controller;
 
 import com.eaton.example.exceptions.EatonException;
-import enums.ErrorCode;
+import com.eaton.example.enums.ErrorCode;
 import com.eaton.example.dtos.DtoMessage;
 import com.eaton.example.model.Device;
 import com.eaton.example.model.DeviceMessage;
