@@ -1,7 +1,6 @@
 package com.eaton.example.rest_controller;
 
-import com.eaton.example.EatonException;
-import com.eaton.example.ErrorCode;
+import com.eaton.example.exceptions.EatonException;
 import com.eaton.example.dtos.DtoDevice;
 import com.eaton.example.model.Device;
 import com.eaton.example.model.ResponseError;
@@ -12,8 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Map;
 
 @RestController
 @RequestMapping("/api")

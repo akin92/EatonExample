@@ -1,11 +1,10 @@
 package com.eaton.example.service;
 
-import com.eaton.example.EatonException;
-import com.eaton.example.ErrorCode;
+import com.eaton.example.exceptions.EatonException;
+import enums.ErrorCode;
 import com.eaton.example.dao.DeviceDao;
 import com.eaton.example.model.Device;
 import com.eaton.example.repository.DeviceRepository;
-import com.eaton.example.rest_controller.DeviceRestController;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

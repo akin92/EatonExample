@@ -1,6 +1,6 @@
 package com.eaton.example.dao;
 
-import com.eaton.example.EatonException;
+import com.eaton.example.exceptions.EatonException;
 import com.eaton.example.model.Device;
 
 public interface DeviceDao {

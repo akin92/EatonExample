@@ -2,10 +2,10 @@ package com.eaton.example;
 
 import com.eaton.example.dtos.DtoDevice;
 import com.eaton.example.dtos.DtoMessage;
+import com.eaton.example.exceptions.EatonException;
 import com.eaton.example.model.Device;
 import com.eaton.example.model.DeviceMessage;
 import com.eaton.example.model.ResponseError;
-import com.eaton.example.rest_controller.MessageRestController;
 import com.eaton.example.service.DeviceMessageService;
 import com.eaton.example.service.DeviceService;
 import com.fasterxml.jackson.core.JsonProcessingException;
