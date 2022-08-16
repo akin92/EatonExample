@@ -52,7 +52,7 @@ public class MessageRestController {
         } catch (EatonException ea) {
             return new ResponseEntity(new ResponseError(ea.getErrorCode().getCode(), ea.getErrorCode().getDescription()), HttpStatus.CONFLICT);
         } catch (Exception e) {
-            logger.error("Device creation process was failed");
+            logger.error("Device message creation process was failed");
             return new ResponseEntity(new ResponseError(0, e.getMessage()), HttpStatus.INTERNAL_SERVER_ERROR);
         }
 
