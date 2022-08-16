@@ -4,7 +4,7 @@ public enum ErrorCode {
     DATABASE(0, "A database error has occurred."),
     DEVICE_ALREADY_EXIST(1, "Device already exist!!"),
     DEVICE_NOT_FOUND(2, "Device not found!!"),
-    DEVICE_NOT_ACTIVE(3, "Device should be active!!");
+    DEVICE_NOT_ACTIVE(3, "Device should be active or login!!");
 
     private final int code;
     private final String description;
